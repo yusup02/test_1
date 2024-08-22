@@ -1,0 +1,105 @@
+body {
+  background-image: url(./mosque.png);
+  background-size: cover; /* Покрывает весь контейнер */
+  background-position: center; /* Центрирует изображение */
+  background-repeat: no-repeat;
+}
+
+.container {
+  max-width: 358px;
+  width: 100%;
+  height: 100vh;
+  margin: 0 auto;
+  color: #fff;
+}
+
+.title {
+  padding-top: 110px;
+}
+
+h1 {
+  font-size: 40px;
+  margin: 0;
+}
+
+p {
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.ineer_text {
+  margin: 0;
+  margin-top: 16px;
+}
+
+.text {
+  margin: 0;
+  margin-top: 50px;
+}
+
+.text_1 {
+  margin-top: 32px;
+  width: 356px;
+  border: solid 1px;
+  border: 1px solid #ead7d7;
+  border-radius: 12px;
+  backdrop-filter: blur(10px); /* Эффект размытия */
+  color: white; /* Цвет текста */
+  max-width: 500px;
+  text-align: left;
+}
+
+.text_2 {
+  margin: 0;
+  line-height: 20px;
+  font-weight: 400;
+  padding: 12px;
+}
+
+.button {
+  margin-top: 99px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.button-help {
+  width: 100%;
+  height: 48px;
+  border-radius: 16px;
+  background-color: #fff;
+  outline: none;
+  border: none;
+  padding: 12px, 0px, 12px, 0px;
+  font-size: 17px;
+  align-items: center;
+  line-height: 24px;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.button-more_details {
+  width: 100%;
+  height: 48px;
+  border-radius: 16px;
+  /* background: none ; */
+  outline: none;
+  border: none;
+  padding: 12px, 0px, 12px, 0px;
+  font-size: 17px;
+  line-height: 24px;
+  backdrop-filter: blur(10px);
+  color: #fff;
+  align-items: center;
+
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 20px; /* Закругленные углы */
+  text-decoration: none; /* Убирает подчеркивание у ссылок */
+  display: inline-block;
+  cursor: pointer; /* Курсор указателя при наведении */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Добавление тени для эффекта подъема */
+}
